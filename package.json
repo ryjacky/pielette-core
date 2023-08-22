@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryjacky/ahpPluginCore.git"
+    "url": "git+https://github.com/ryjacky/autohotpie-core.git"
   },
   "license": "MIT",
   "author": {
@@ -33,9 +33,9 @@
   "keywords": [
   ],
   "bugs": {
-    "url": "https://github.com/ryjacky/ahpPluginCore/issues"
+    "url": "https://github.com/ryjacky/autohotpie-core/issues"
   },
-  "homepage": "https://github.com/ryjacky/ahpPluginCore",
+  "homepage": "https://github.com/ryjacky/autohotpie-core",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
