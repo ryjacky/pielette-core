@@ -1,6 +1,6 @@
 {
   "name": "autohotpie-core",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "This is the core library for AutoHotPie and its plugins.",
   "main": "./lib/index.js",
   "files": [
@@ -12,6 +12,7 @@
     "cm": "cz",
     "lint": "eslint ./src/ --fix",
     "prepare": "",
+    "publish": "npm run build && npm publish",
     "semantic-release": "semantic-release",
     "test:watch": "jest --watch",
     "test": "jest --coverage",
