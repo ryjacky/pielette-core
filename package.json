@@ -1,7 +1,7 @@
 {
-  "name": "ahp-plugin-core",
+  "name": "autohotpie-core",
   "version": "0.0.5",
-  "description": "This is the core library for developing AutoHotPie plugins. It contains the base classes and interfaces that are needed.",
+  "description": "This is the core library for AutoHotPie and its plugins.",
   "main": "./lib/index.js",
   "files": [
     "lib/**/*"
