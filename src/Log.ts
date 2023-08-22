@@ -26,4 +26,7 @@ configure({
     },
   },
 });
-export const Log = getLogger('main');
+export const Log = {
+  main: getLogger('main'),
+  renderer: getLogger('renderer')
+};
