@@ -1,9 +1,9 @@
 import { promises as fs } from 'fs';
 import * as path from 'path';
-import { Environment } from './Environment';
+import { AHPEnv } from './AHPEnv';
 
 export async function GetPluginList(): Promise<string[]> {
-  const pluginDir = path.join(Environment.DEFAULT_DATA_PATH, 'Plugins');
+  const pluginDir = path.join(AHPEnv.DEFAULT_DATA_PATH, 'Plugins');
 
   const pluginDirList =
     (await fs.readdir(pluginDir, { withFileTypes: true }))
