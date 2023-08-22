@@ -1,6 +1,6 @@
 {
   "name": "autohotpie-core",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "This is the core library for AutoHotPie and its plugins.",
   "main": "./lib/index.js",
   "files": [
