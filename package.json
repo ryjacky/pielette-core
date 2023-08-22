@@ -1,6 +1,6 @@
 {
   "name": "autohotpie-core",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This is the core library for AutoHotPie and its plugins.",
   "main": "./lib/index.js",
   "files": [
@@ -36,6 +36,9 @@
     "url": "https://github.com/ryjacky/autohotpie-core/issues"
   },
   "homepage": "https://github.com/ryjacky/autohotpie-core",
+  "dependencies": {
+    "log4js": "6.9.1"
+  },
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
