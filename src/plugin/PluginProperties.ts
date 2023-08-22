@@ -1,11 +1,8 @@
-export class PluginProperties {
-  constructor(
-    public name: string,
-    public type: PluginType,
-    public description: string = '',
-    public author: string = '',
-  ) {
-  }
+export interface PluginProperties {
+  name: string,
+  type: PluginType,
+  description?: string,
+  author?: string
 }
 
 export enum PluginType {
