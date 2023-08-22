@@ -1,6 +1,6 @@
 {
   "name": "autohotpie-core",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "This is the core library for AutoHotPie and its plugins.",
   "main": "./lib/index.js",
   "files": [
@@ -28,7 +28,7 @@
     "url": "https://github.com/ryjacky"
   },
   "engines": {
-    "node": ">=21.1"
+    "node": ">=20.1"
   },
   "keywords": [
   ],
