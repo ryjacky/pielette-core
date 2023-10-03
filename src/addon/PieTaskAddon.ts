@@ -1,4 +1,6 @@
-export interface PieTaskAddon {
+import { Addon } from "./Addon";
+
+export interface PieTaskAddon extends Addon {
   onExecuted(args: OnExecutedArgs): void;
 }
 
