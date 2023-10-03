@@ -1,0 +1,20 @@
+{
+  "name": "pielette-core",
+  "version": "0.0.24",
+  "description": "Pielette core",
+  "main": "lib/index.js",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "release": "npm run build && npm publish",
+    "dev": "tsc -W"
+  }
+}
