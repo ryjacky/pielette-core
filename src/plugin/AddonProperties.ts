@@ -1,9 +1,10 @@
-export interface PluginProperties {
+export interface AddonProperties {
+  id: string,
   name: string,
   type: PluginType,
   description?: string,
   author?: string,
-  parameters?: Map<string, string>
+  parameters?: { name: string, type: string }[]
 }
 
 export enum PluginType {

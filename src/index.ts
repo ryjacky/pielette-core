@@ -1,5 +1,5 @@
 import { Log } from './Log';
-import { ActionPlugin } from './plugin/ActionPlugin';
-import { PluginType, PluginProperties } from './plugin/PluginProperties';
+import { PieTaskAddon, OnExecutedArgs } from './plugin/PieTaskAddon';
+import { PluginType, AddonProperties } from './plugin/AddonProperties';
 
-export { ActionPlugin, Log, PluginType, PluginProperties };
+export { PieTaskAddon, Log, PluginType, AddonProperties, OnExecutedArgs };
