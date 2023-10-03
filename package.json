@@ -1,6 +1,6 @@
 {
   "name": "pielette-core",
-  "version": "0.0.37",
+  "version": "0.0.39",
   "description": "Pielette core",
   "main": "lib/index.js",
   "repository": "",
