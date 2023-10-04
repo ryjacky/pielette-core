@@ -24,9 +24,14 @@ configure({
       appenders: ['productionFilter', 'devConsole', 'devFile'],
       level: 'trace',
     },
+    addon: {
+      appenders: ['productionFilter', 'devConsole', 'devFile'],
+      level: 'trace',
+    },
   },
 });
 export const Log = {
   main: getLogger('main'),
-  renderer: getLogger('renderer')
+  renderer: getLogger('renderer'),
+  addon: getLogger('addon')
 };
