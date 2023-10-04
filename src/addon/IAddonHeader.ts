@@ -8,4 +8,7 @@ export interface IAddonHeader {
   receiveArgs?: ReceiveArgs[]
 }
 
-export type ReceiveArgs = { argName: string; fieldType: "text" | "number" | "boolean" | "select" | "file" | "folder" | "shortcut"; }[];
+export type ReceiveArgs = {
+  argName: string;
+  fieldType: "text" | "number" | "boolean" | "select" | "file" | "folder" | "hotkeys";
+};
