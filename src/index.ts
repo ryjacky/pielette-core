@@ -1,5 +1,5 @@
 import { Log } from './Log';
 import { PieTaskAddon, OnExecutedArgs } from './addon/PieTaskAddon';
-import { AddonHeader } from './addon/AddonHeader';
+import { IAddonHeader } from './addon/IAddonHeader';
 
-export { PieTaskAddon, Log, AddonHeader, OnExecutedArgs };
+export { PieTaskAddon, Log, IAddonHeader, OnExecutedArgs };

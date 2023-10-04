@@ -1,4 +1,4 @@
-export interface AddonHeader {
+export interface IAddonHeader {
   displayName: string,
 
   /**
