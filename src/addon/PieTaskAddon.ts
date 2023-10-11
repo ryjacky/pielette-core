@@ -1,5 +1,5 @@
 export abstract class PieTaskAddon {
-  onExecuted(args: OnExecutedArgs): void {}
+  onExecuted(args: RuntimeArgs): void {}
 }
 
-export type OnExecutedArgs = Record<string, string>;
+export type RuntimeArgs = Record<string, unknown>;
