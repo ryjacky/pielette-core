@@ -1,5 +1,4 @@
-export abstract class PieTaskAddon {
-  onExecuted(args: RuntimeArgs): void {}
+export interface PieTaskAddon {
+  name: string;
+  onExecuted(...args: any[]): void;
 }
-
-export type RuntimeArgs = Record<string, unknown>;
