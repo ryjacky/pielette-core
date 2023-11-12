@@ -1,4 +1,8 @@
 import { Log } from './Log';
-import { PieTaskAddon } from './addon/PieTaskAddon';
+import { PieletteAddon } from './addon/PieletteAddon';
+import { Hotkey } from './pieletteObjects/hotkey/Hotkey';
+import { PieletteEnv } from './PieletteEnv';
+import { PieletteObject } from './pieletteObjects/PieletteObject';
+import { PieItemTaskAddon } from './addon/PieItemTaskAddon';
 
-export { PieTaskAddon, Log };
+export { PieletteAddon, Log, Hotkey, PieletteEnv, PieletteObject, PieItemTaskAddon };
